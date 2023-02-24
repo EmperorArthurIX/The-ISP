@@ -65,9 +65,15 @@ a {
 footer {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   min-height: max-content;
   padding: 3vh 1vw;
+}
+
+footer img {
+  padding: 1.5vh 2vw;
+  height: 10vh;
 }
 
 footer a {
@@ -91,7 +97,16 @@ footer a:hover {
 }
 
 .navbar-brand {
-  padding-left: 1vw;
+  padding: 0 0 0 1vw;
+}
+
+.navbar-brand > img {
+  height: 10vh;
+  transition: transform 500ms;
+}
+
+.navbar-brand > img:hover {
+  transform: scale(1.25);
 }
 
 .nav-link {
