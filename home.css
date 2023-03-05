@@ -113,15 +113,14 @@ footer a:hover {
   margin: auto 1vw;
 }
 
-.card-group {
-  /* max-width: 1320px; */
-  margin: auto;
-}
-
 .card {
   margin-right: 1vw;
   margin-left: 1vw;
   border-radius: 10px;
+}
+
+.projects .card {
+  min-height: 250px;
 }
 
 .card-img-top {
